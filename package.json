@@ -30,5 +30,5 @@
   "scripts": {
     "test": "react-scripts test --watchAll=false"
   },
-  "version": "1.0.0"
+  "version": "1.0.2"
 }
