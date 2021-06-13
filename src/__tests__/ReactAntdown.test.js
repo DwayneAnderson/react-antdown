@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom/extend-expect'
 import React from 'react'
-import {render, screen} from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import ReactAntdown from '../ReactAntdown'
 
 it('returns props.children', () => {
@@ -46,7 +46,7 @@ it('honors react-markdown props by passing them to react-markdown', () => {
   const markdown = '[link](https://test.com)'
   render(
     <ReactAntdown
-      linkTarget="_blank"
+      linkTarget='_blank'
     >
       {markdown}
     </ReactAntdown>

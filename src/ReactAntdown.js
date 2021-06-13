@@ -2,7 +2,7 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
 const ReactAntdown = (props) => {
-  const {className, children, ...other} = props
+  const { className, children, ...other } = props
 
   const classNames = [
     'react-antdown',
