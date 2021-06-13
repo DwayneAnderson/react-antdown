@@ -5,17 +5,23 @@
 
 # react-antdown
 
-Simply put, this component wraps the output of [react-markdown](https://www.npmjs.com/package/react-markdown) with a className of `.ant-typography`.
+Simply put, this component wraps the output of
+[react-markdown](https://www.npmjs.com/package/react-markdown) with a
+className of `.ant-typography`, ensuring that the html of react-markdown
+will pick up CSS rules defined in [Ant Design](https://ant.design/).
 
 ## Install
 
-
-
+Install [react-antdown npm module](https://www.npmjs.com/package/react-antdown) as a dependency of your `antd` project with `npm`.
 ```
 npm install react-antdown --save
 ```
+or, with `yarn`...
+```
+yarn add react-antdown
+```
 
-## Usage
+## Basic Usage
 
 ```
 import React from 'react'
@@ -53,4 +59,5 @@ export default MyComponent
 
 Any other props specified will be passed along to the internal instance of `react-markdown`.
 
-The full list of [props that react-markdown supports](https://github.com/remarkjs/react-markdown) can be viewed in the [react-markdown documentation on GitHub](https://github.com/remarkjs/react-markdown).
+The full list of [props that react-markdown supports](https://github.com/remarkjs/react-markdown) can be
+viewed in the [react-markdown documentation on GitHub](https://github.com/remarkjs/react-markdown).
