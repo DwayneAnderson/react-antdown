@@ -1,3 +1,4 @@
+![version](https://img.shields.io/npm/v/react-antdown)
 ![build](https://github.com/DwayneAnderson/react-antdown/actions/workflows/build.yml/badge.svg)
 ![test](https://github.com/DwayneAnderson/react-antdown/actions/workflows/test.yml/badge.svg)
 ![coverage](https://img.shields.io/codecov/c/github/dwayneanderson/react-andown/main)
@@ -7,6 +8,8 @@
 Simply put, this component wraps the output of [react-markdown](https://www.npmjs.com/package/react-markdown) with a className of `.ant-typography`.
 
 ## Install
+
+
 
 ```
 npm install react-antdown --save
