@@ -39,7 +39,7 @@
     "react-antdown"
   ],
   "license": "MIT",
-  "main": "src/ReactAntdown.js",
+  "main": "dist/ReactAntdown.js",
   "name": "react-antdown",
   "repository": "https://github.com/DwayneAnderson/react-antdown",
   "scripts": {
