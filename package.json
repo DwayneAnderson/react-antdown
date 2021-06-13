@@ -36,7 +36,9 @@
     "react",
     "markdown",
     "react-markdown",
-    "antd"
+    "ant design",
+    "antd",
+    "ant-typography"
   ],
   "license": "MIT",
   "main": "dist/ReactAntdown.js",
@@ -58,5 +60,5 @@
       "dist"
     ]
   },
-  "version": "1.0.10"
+  "version": "1.0.11"
 }
