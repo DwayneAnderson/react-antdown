@@ -7,6 +7,8 @@
 .pnp.*
 .DS_Store
 node_modules
-build
 .env
 coverage
+src
+.babelrc
+webpack.config.js

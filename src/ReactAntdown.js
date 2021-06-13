@@ -15,7 +15,7 @@ const ReactAntdown = (props) => {
       className={classNames.join(' ').trim()}
       {...other}
     >
-      {children || ''}
+      {children}
     </ReactMarkdown>
   )
 }
