@@ -1,6 +1,6 @@
-[![build](https://github.com/DwayneAnderson/react-antdown/actions/workflows/build.yml/badge.svg)](https://github.com/DwayneAnderson/react-antdown/actions/workflows/build.yml)
-[![test](https://github.com/DwayneAnderson/react-antdown/actions/workflows/test.yml/badge.svg)](https://github.com/DwayneAnderson/react-antdown/actions/workflows/test.yml)
-[![coverage](https://github.com/DwayneAnderson/react-antdown/actions/workflows/coverage.yml/badge.svg)](https://github.com/DwayneAnderson/react-antdown/actions/workflows/coverage.yml)
+![build](https://github.com/DwayneAnderson/react-antdown/actions/workflows/build.yml/badge.svg)
+![test](https://github.com/DwayneAnderson/react-antdown/actions/workflows/test.yml/badge.svg)
+![coverage](https://img.shields.io/codecov/c/github/dwayneanderson/react-andown/main)
 
 # react-antdown
 
