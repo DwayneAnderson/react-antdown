@@ -30,3 +30,15 @@ it('returns HTML when props.children is a Markdown-formatted string', () => {
   )
   expect(screen.getByText('title').closest('h1')).toBeInTheDocument()
 })
+
+it('honors react-markdown props by passing them to react-markdown', () => {
+  const markdown = '[link](https://test.com)'
+  render(
+    <ReactAntdown
+      linkTarget="_blank"
+    >
+      {markdown}
+    </ReactAntdown>
+  )
+  expect(screen.getByText('link').closest('a')).toHaveAttribute('target', '_blank')
+})

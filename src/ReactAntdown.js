@@ -1,9 +1,20 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
-const ReactAntdown = ({children}) => {
+const ReactAntdown = (props) => {
+  const {className, children, ...other} = props
+
+  const classNames = [
+    'react-antdown',
+    'ant-typography',
+    className || ''
+  ]
+
   return (
-    <ReactMarkdown className='ant-typography'>
+    <ReactMarkdown
+      className={classNames.join(' ').trim()}
+      {...other}
+    >
       {children}
     </ReactMarkdown>
   )
