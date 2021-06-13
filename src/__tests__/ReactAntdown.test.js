@@ -18,7 +18,18 @@ it('output has className \'.ant-typography\'', () => {
       child
     </ReactAntdown>
   )
-  expect(screen.getByText('child').closest('.ant-typography')).toBeInTheDocument()
+  expect(
+    screen.getByText('child').closest('.ant-typography')).toBeInTheDocument()
+})
+
+it('output has additional className(s) when specified', () => {
+  render(
+    <ReactAntdown className='foo bar'>
+      child
+    </ReactAntdown>
+  )
+  expect(screen.getByText('child').closest('.foo')).toBeInTheDocument()
+  expect(screen.getByText('child').closest('.bar')).toBeInTheDocument()
 })
 
 it('returns HTML when props.children is a Markdown-formatted string', () => {
