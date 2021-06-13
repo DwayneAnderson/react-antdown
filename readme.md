@@ -1,3 +1,5 @@
+[![test](https://github.com/DwayneAnderson/react-antdown/actions/workflows/test.yml/badge.svg)](https://github.com/DwayneAnderson/react-antdown/actions/workflows/test.yml)
+
 # react-antdown
 
 Simply put, this component wraps the output of [react-markdown](https://www.npmjs.com/package/react-markdown) with a className of `.ant-typography`.
