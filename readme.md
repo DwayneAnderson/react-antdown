@@ -42,10 +42,8 @@ export default MyComponent
 *   `children` (`string`, default: `''`)\
     The Markdown to pass to ReactMarkdown
 *   `className` (`string?`)\
-    Any additional className(s), to be appended to the defaults: 'react-antdown', 'ant-typography'
+    Any additional className(s), to be appended to the defaults: `'react-antdown'`, `'ant-typography'`
 
-Any other props provided will be passed along to the internal instance of `react-markdown`.
+Any other props specified will be passed along to the internal instance of `react-markdown`.
 
-[View the full list of props tht react-markdown supports](https://github.com/remarkjs/react-markdown#props)
-
-
+The full list of [props that react-markdown supports](https://github.com/remarkjs/react-markdown) can be viewed in the [react-markdown documentation on GitHub](https://github.com/remarkjs/react-markdown).
