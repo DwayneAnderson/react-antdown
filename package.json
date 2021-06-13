@@ -31,12 +31,12 @@
     "src/"
   ],
   "keywords": [
+    "antdown",
+    "react-antdown",
     "react",
     "markdown",
     "react-markdown",
-    "antd",
-    "antdown",
-    "react-antdown"
+    "antd"
   ],
   "license": "MIT",
   "main": "dist/ReactAntdown.js",
